@@ -7,7 +7,7 @@ RUN apt-get upadte && apt-get install -y \
 
 RUN pip3 install PyYAML
 
-COPY feed.py /user/bin/feed.py
+COPY feed.py /usr/bin/feed.py
 
 COPY entrypoint.sh /entrypoint.sh
 
